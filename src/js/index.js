@@ -2,11 +2,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// include your styles into the webpack bundle
-import "../styles/index.css";
+//include bootstrap npm library into the bundle
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+//include your index.scss file into the bundle
+import "../styles/index.scss";
 
 //import your own components
-import Home from "./component/home.jsx";
+import {List}  from "/workspace/react-hello/src/js/component/Home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<List />, document.querySelector("#app"));
