@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/index.scss";
 
 //import your own components
-import {List}  from "/workspace/react-hello/src/js/component/Home.jsx";
+import {List}  from "./component/Home.jsx";
 
 //render your react application
 ReactDOM.render(<List />, document.querySelector("#app"));
